@@ -1,0 +1,14 @@
+.player--stats {
+
+  &--HP {
+    span {
+      color: $health;
+    }
+  }
+
+  &--MP {
+    span {
+      color: $mana;
+    }
+  }
+}

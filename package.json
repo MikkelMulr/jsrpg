@@ -1,0 +1,19 @@
+{
+  "name": "js_rpg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "concurrently \"npm run sass\" \"npm run lite\"",
+    "lite": "lite-server",
+    "sass": "node-sass -wr --output-style compressed src/scss -o dist/css"
+  },
+  "keywords": [],
+  "author": "Michael Mueller",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^5.1.0",
+    "lite-server": "^2.5.4",
+    "node-sass": "^4.13.1"
+  }
+}
