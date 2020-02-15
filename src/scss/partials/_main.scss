@@ -1,9 +1,12 @@
-main {
-  max-width: 100vw;
-  width: 100%;
-  min-height: calc(100vh - 70px);
-  height: 100%;
-  background-color: #ddd;
-  overflow-x: hidden;
-  font-family: $font-primary;
+.ui-container {
+	max-width: 100vw;
+	width: 100%;
+	min-height: calc(100vh - 70px);
+	height: 100%;
+	overflow-x: hidden;
+	font-family: $font-fancy;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: center;
 }
