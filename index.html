@@ -14,7 +14,39 @@
   
   <section class="start-menu">
     <div class="start-menu--main">
-      <button class="close">Close</button>
+      <header>
+        <h2>JSRPG</h2>
+      </header>
+      <article class="start-menu--inputs">
+        <input type="text" name="player_name" id="player_name" placeholder="character name">
+        <h2>Select your class</h2>
+        <div class="start-menu--inputs--icons">
+          <div class="start-menu--inputs--icon jobPick" data-job="Guardian">
+            <img src="./src/assets/img/icons/winged-sword.png" alt="Guardian" class="start-menu--inputs--icon--img">
+            <h3>Guardian</h3>
+          </div>
+          <div class="start-menu--inputs--icon jobPick" data-job="Mage">
+            <img src="./src/assets/img/icons/orb-wand.png" alt="Mage" class="start-menu--inputs--icon--img">
+            <h3>Mage</h3>
+          </div>
+          <div class="start-menu--inputs--icon jobPick" data-job="Warrior">
+            <img src="./src/assets/img/icons/sharp-axe.png" alt="Warrior" class="start-menu--inputs--icon--img">
+            <h3>Warrior</h3>
+          </div>
+          <div class="start-menu--inputs--icon jobPick" data-job="Archer">
+            <img src="./src/assets/img/icons/pocket-bow.png" alt="Archer" class="start-menu--inputs--icon--img">
+            <h3>Archer</h3>
+          </div>
+          <div class="start-menu--inputs--icon jobPick" data-job="Assassin">
+            <img src="./src/assets/img/icons/sacrificial-dagger.png" alt="Assassin" class="start-menu--inputs--icon--img " >
+            <h3>Assassin</h3>
+          </div>
+        </div>
+        <button class="startGame">Start Game</button>
+      </article>
+      
+      <!-- <button class="close">Close</button> -->
+
     </div>
   </section>
 <!--   
@@ -47,6 +79,16 @@
           <button class="ui-events--inputs--btn btn-run">Run</button>
         </div>
       </div>
+    </section>
+
+    <section class="player--stats">
+      <div class="player--stats--img"></div>
+      <h2 class="player--stats--name"></h2>
+      <h2 class="player--stats--job"></h2>
+      <h2 class="player--stats--HP"></h2>
+      <h2 class="player--stats--MP"></h2>
+      <h2 class="player--stats--ATTK"></h2>
+      <h2 class="player--stats--DEF"></h2>
     </section>
   </main>
 
