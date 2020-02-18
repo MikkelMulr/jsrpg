@@ -1,5 +1,5 @@
 .ui-events {
-	height: 50rem;
+	height: 42rem;
 	width: 70rem;
 	font-family: $font-fancy;
 	display: flex;
@@ -27,6 +27,7 @@
 		overflow-y: scroll;
 
 		&--item {
+			font-size: 1.2rem;
 			color: #eee;
 			padding: 0.5rem;
 			animation: loadText 0.25s linear;
@@ -45,7 +46,7 @@
 			font-size: 0.85rem;
 			color: #fff;
 			width: 7rem;
-			height: 4rem;
+			height: 3.5rem;
 			border: 5px solid #fff;
 			outline: none;
 			background: none;
