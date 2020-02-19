@@ -66,7 +66,7 @@ class player {
     if (update == 'hp') {
       document.querySelector('.player--stats--HP').innerHTML = `HP: <span>${this.player_init_HP}</span>`;
     } else if (update == 'mp') {
-      document.querySelector('.player--stats--MP').innerHTML = `MP: <span>${this.player_init_HP}</span>`;
+      document.querySelector('.player--stats--MP').innerHTML = `MP: <span>${this.player_init_MP}</span>`;
     }
   };
 
@@ -243,6 +243,7 @@ player_attack = () => {
 let newPlayer = new player();
 let newGame = new game();
 let jobChoice = '';
+
 document.querySelectorAll('.jobPick').forEach((job) => {
   job.addEventListener('click', function () {
     jobChoice = job.dataset.job;
